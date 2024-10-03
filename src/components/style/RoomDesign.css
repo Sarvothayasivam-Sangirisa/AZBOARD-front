@@ -1,0 +1,35 @@
+.room-design-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.image-upload {
+    margin-bottom: 20px;
+}
+
+.canvas-container {
+    border: 1px solid #ccc;
+    margin: 0 auto 20px;
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: #fff;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.furniture-icon {
+    width: 50px;  /* Smaller size for selection icons */
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.furniture-icon:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
